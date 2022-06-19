@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export class ContactService {
-  static serverURL = 'http://178.128.196.163:3000';
+  static serverURL = '';
 
   static getAllContacts() {
     let dataURL = `${this.serverURL}/api/records`;
